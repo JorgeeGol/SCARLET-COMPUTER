@@ -1,0 +1,77 @@
+body, ul, li, p {
+    Margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+  
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+   
+body{
+    background-color: rgb(167, 167, 167);
+    margin: 0px auto;
+}
+
+.menu{
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    background-color: rgb(148, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.anuncio {
+    position: sticky;
+    top: 0px;
+}
+
+main {
+    display: grid;
+    grid-template-columns:  83% 17%;
+    grid-template-rows:  1f 1f;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+footer {
+    background-color: rgb(128, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS GRID 1*/
+
+.grid1 {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0px auto;
+    grid-gap: 20px;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.box {
+    width: 250px;
+    height: 400px;
+    background: white;
+    border-radius: 50px;
+}
